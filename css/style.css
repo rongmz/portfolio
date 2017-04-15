@@ -1,0 +1,55 @@
+/* ------ type writer effect ------ */
+.typed-cursor{
+    font-size: 1.75em;
+	opacity: 1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+@keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-moz-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+/* ------ type writer effect end ------ */
+
+hr.bold-hr {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+    border-color: transparent;
+}
+
+.big-text {
+    font-size: 5em;
+  }
+@media (min-width: 768px) {
+  .big-text {
+    font-size: 10em;
+  }
+}
+
+.my-font {
+  font-family: 'Conv_Computerfont' !important;
+}
+
+.voice {
+  font-style: italic;
+  font-size: medium;
+}
+.fb:hover {
+  color: #4267B2 !important;
+}
